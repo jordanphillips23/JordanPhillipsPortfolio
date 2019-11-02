@@ -1,0 +1,5 @@
+.text {
+	font-size: 1em;
+	color: var(--main-dark-text);
+	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
