@@ -1,6 +1,5 @@
 #navbar {
 	display: flex;
-	
 	flex-direction: row;
 	background: var(--main-blue);
 	position: fixed;

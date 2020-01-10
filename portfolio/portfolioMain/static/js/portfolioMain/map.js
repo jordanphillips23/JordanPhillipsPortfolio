@@ -1,5 +1,9 @@
 var map;
 function initMap() {
+	// Once loaded removes api connector
+	$( "#map-api" ).remove();
+
+	// creates map
 	map = new google.maps.Map(document.getElementById('map'), {
     zoom: 0,
     center: {lat: 0, lng: 0}
@@ -14,5 +18,11 @@ function initMap() {
 
 
 function setMapMarkers(response, textStatus, jqXHR) {
-	console.log(response);
+	for (x of response) {
+		new google.maps.Marker({
+    		position: {lat: parseFloat(x.latitude), lng: parseFloat(x.longitude)},
+    		map: map,
+  		});
+	}
+
 }

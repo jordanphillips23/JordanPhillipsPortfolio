@@ -3,3 +3,7 @@
 	color: var(--main-dark-text);
 	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
 }
+
+#nav-spacer {
+	padding-bottom: 4em;
+}

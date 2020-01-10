@@ -1,0 +1,8 @@
+.django-table .col{
+	border-color:grey;
+	border-width: .25rem;
+}
+
+.python-list li{
+	padding-top: 2rem;
+}

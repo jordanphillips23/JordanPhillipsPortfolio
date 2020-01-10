@@ -1,10 +1,47 @@
 {% extends "base.html" %}
 
 {% block content %}
-<br><br><br><br>
-	<p class = "text">python</p>
-	<br><br><br><br><br><br><br><br><br><br>
-	<br><br><br><br><br><br><br><br><br><br>
-	<br><br><br><br><br><br><br><br><br><br>
-	<br><br><br><br><br><br><br><br><br><br>
+	<div class = "container-fluid"> 
+		<div class = "row">
+			<div class = "col-xl-10 offset-xl-1 jumbotron">
+				<h1 class = "text-center">Django</h1>
+				<h5 class = "text-center"><a href = "https://github.com/jordanphillips23/JordanPhillipsPortfolio/tree/master/portfolio/portfolioMain">See the code for this website</a></h5>
+				<hr>
+				<div class = "row django-table">
+					<div class = "col">
+						<h3 class = "text-center">Server</h3>
+
+						<ul class = "python-list">
+							<li>Holds all of the different pages</li>
+
+							<li>Compiles templates, and pulls data from database to create them</li>
+
+						</ul>
+					</div>
+					<div class = "col">
+						<h3 class = "text-center">Database</h3>
+						<ul class = "python-list">
+							<li>Holds the last 100 locations for Javascript demo.</li>
+
+							<li>Creates a new object when connecting to the js demo.</li>
+
+							<li>Deletes old records to keep only last 100</li>
+
+
+						</ul>
+					</div>
+					<div class = "col">
+						<h3 class = "text-center">Connections</h3>
+
+						<ul class = "python-list">
+							<li>Connects to external api to get location from user IP</li>
+
+
+						</ul>
+					</div>
+
+				</div>
+			</div>
+		</div>
+	</div>
 {% endblock %}
