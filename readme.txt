@@ -2,7 +2,7 @@ Jordan Phillip's Portfolio
 
 The projects that are contained within this portfolio
 
-Modular Java demo in Java Demo
+Modular system and matrix demo in Java Demo
 
 A Doc2Vec demo in Python Demo
 
